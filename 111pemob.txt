@@ -1,0 +1,10 @@
+Tugas Minggu 4 Praktikum:
+1. Buatlah halaman kontak, dimana ketika pengguna klik nomor yang tertera, maka akan langsung diarahkan ke aplikasi telpon menggunakan Intent
+2. Integrasikan halaman register, login, mr. kumis, dan halaman kontak menjadi satu aplikasi dengan menggunakan Intent
+
+String pass = et_password.getText().toString();
+                if (user.isEmpty() || pass.isEmpty()){
+                    Toast.makeText(MainActivity.this, "Username dan Password tidak boleh kosong", Toast.LENGTH_LONG).show();
+                    return;
+                }
+                Toast.makeText(MainActivity.this, "Berhasil Masuk!", Toast.LENGTH_LONG).show();
